@@ -1,0 +1,212 @@
+
+/*html {
+  font-family: Helvetica, sans-serif;
+}*/
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+  background-color: #000;
+  color: #ddd;
+}
+
+.section {
+  padding: 150px 0 150px 0;
+}
+
+.collapsible {
+  border: 0px #000 solid;
+}
+.collapsible-header {
+  border: 0px #555 solid;
+  border-bottom: 1px #555 solid;
+  background-color: #222;
+}
+
+.collapsible-body {
+  background-color: #151515;
+  border: 0px solid;
+}
+
+
+.header-contact {
+  background-image: url('../images/header-contact.jpg');
+  background-size: cover;
+  background-position: bottom;
+  padding: 300px 0 200px 0px;
+}
+
+.destined {
+  background-image: url('../images/destined2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 350px 0 350px 0;
+}
+
+.zensketch {
+  background-image: url('../images/zensketch/zenmode-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  padding: 150px 0 150px 0;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+
+.navbar-fixed {
+  position: absolute;
+  z-index:999999999;
+}
+
+nav {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav ul a {
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 100px;
+    line-height: 100px;
+}
+
+nav .button-collapse i {
+    height: 100px;
+    line-height: 100px;
+}
+
+ .nav-wrapper .brand-logo img {
+    height: 100px;
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 100px;
+        line-height: 100px;
+    }
+}
+
+h6 {
+  color: #9388e8;
+  font-size: 18px;
+}
+
+/* The only rule that matters */
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+
+}
+
+.video-container {
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    width: 245px;
+    margin: 10px auto 10px auto;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+    margin-right: 5px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.fa-facebook {
+    padding:12px 16px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #3d5b99;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+.fa-facebook:hover {
+    opacity: 0.6;
+}
+.fa-twitter {
+    padding:12px 13px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #00aced;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+.fa-twitter:hover {
+    opacity: 0.6;
+}
+.fa-youtube {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #e64a41;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+.fa-youtube:hover {
+    opacity: 0.6;
+}
+.fa-linkedin {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #0073a4;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+.fa-linkedin:hover {
+    opacity: 0.6;
+}
+.fa-google-plus {
+    padding:12px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #e25714;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+.fa-google-plus:hover {
+    opacity: 0.6;
+}

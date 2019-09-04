@@ -1,0 +1,361 @@
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css\style.css" >
+    <script src="js/paper-full.min.js"></script>
+    <script src="js/sounds.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+
+    <div class="navbar-fixed">
+      <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+          <div class="row">
+            <div class="col s12">
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+              <a href="index.html" class="brand-logo" target="_blank">Sketch#</a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="games.html">DOCUMENTATION</a></li>
+
+              </ul>
+            </div>
+          </div>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="games.html">DOCUMENTATION</a></li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+ <div class="section header-contact">
+   <div class="container" style="position: relative; bottom: 0;">
+    <div class="row">
+      <div class="col s12">
+        <h4 style="color: #fff;" class="center-align">DOCUMENTATION</h4>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+   <div class="row">
+     <div class="col s12 m3 l3">
+
+         <h5 style="color: #fff;" class="center-align">POINT</h5>
+         <h6 class="center-align">PROPERTIES</h6>
+         <ul class="collapsible" data-collapsible="accordion">
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>x</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>y</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>time</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>pressure</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>corner</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+          </ul>
+
+          <h6 class="center-align">CONSTRUCTORS</h6>
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons"></i>Point()</div>
+              <div class="collapsible-body"><span>Initializes an empty Point object</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons"></i>Point(x, y, time)</div>
+              <div class="collapsible-body"><span>Initializes a Point object based on given x, y, and time values</span></div>
+            </li>
+          </ul>
+
+           <h6 class="center-align">METHODS</h6>
+           <ul class="collapsible" data-collapsible="accordion">
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>isNear(point, threshold)</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>randomize(minX, maxX, minY, maxY)</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+           </ul>
+      </div>
+
+     <div class="col s12 m3 l3">
+         <h5 style="color: #fff;" class="center-align">SEGMENT</h5>
+          <h6 class="center-align">PROPERTIES</h6>
+         <ul class="collapsible" data-collapsible="accordion">
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>point1</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>point2</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>length</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>angle</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+          </ul>
+
+          <h6 class="center-align">CONSTRUCTORS</h6>
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons"></i>Segment()</div>
+              <div class="collapsible-body"><span>Initializes an empty Segment object</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons"></i>Segment(point1, point2)</div>
+              <div class="collapsible-body"><span>Initializes a Segment object from two given Points</span></div>
+            </li>
+          </ul>
+
+           <h6 class="center-align">METHODS</h6>
+           <ul class="collapsible" data-collapsible="accordion">
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getLength()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getAngle()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getDuration()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+           </ul>
+     </div>
+     <div class="col s12 m3 l3">
+         <h5 style="color: #fff;" class="center-align">STROKE</h5>
+         <h6 class="center-align">PROPERTIES</h6>
+         <ul class="collapsible" data-collapsible="accordion">
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>points</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>segments</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>corners</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>numPoints</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>numCorners</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>shape</div>
+             <div class="collapsible-body"><span></span></div>
+           </li>
+          </ul>
+
+          <h6 class="center-align">CONSTRUCTORS</h6>
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons"></i>Stroke()</div>
+              <div class="collapsible-body"><span>Initializes an empty Stroke object</span></div>
+            </li>
+          </ul>
+
+           <h6 class="center-align">METHODS (OPERATIONS)</h6>
+           <ul class="collapsible" data-collapsible="accordion">
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>add(point)</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>insert(point, index)</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>remove(point, index)</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>join(stroke, position)</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>split(index)</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+           </ul>
+
+           <h6 class="center-align">METHODS (GESTURE)</h6>
+           <ul class="collapsible" data-collapsible="accordion">
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getInitialAngleCos()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getInitialAngleSin()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getBoundingBoxLength()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getBoundingBoxAngle()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getDistanceFirstLast()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getFirstLastAngleCos()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getFirstLastAngleSin()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getLength()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getTotalAngleTraversed()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getTotalAngleSum()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getTotalAngleSumSquared()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getMaxSpeedSquared()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getDuration()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>getCorners()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+           </ul>
+
+           <h6 class="center-align">METHODS (RECOGNITION TESTS)</h6>
+           <ul class="collapsible" data-collapsible="accordion">
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>isClosed()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>isLine()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>isArrow()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>isCircle()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+             <li>
+               <div class="collapsible-header"><i class="material-icons"></i>isSquare()</div>
+               <div class="collapsible-body"><span></span></div>
+             </li>
+           </ul>
+     </div>
+     <div class="col s12 m3 l3">
+         <h5 style="color: #fff;" class="center-align">SKETCH</h5>
+         <h6 class="center-align">PROPERTIES</h6>
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header"><i class="material-icons"></i>strokes</div>
+            <div class="collapsible-body"><span></span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons"></i>numStrokes</div>
+            <div class="collapsible-body"><span></span></div>
+          </li>
+         </ul>
+
+         <h6 class="center-align">CONSTRUCTORS</h6>
+         <ul class="collapsible" data-collapsible="accordion">
+           <li>
+             <div class="collapsible-header"><i class="material-icons"></i>Sketch()</div>
+             <div class="collapsible-body"><span>Initializes an empty Sketch object</span></div>
+           </li>
+         </ul>
+
+          <h6 class="center-align">METHODS</h6>
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons"></i>add(stroke)</div>
+              <div class="collapsible-body"><span>Appends a given Stroke object to the Sketch object</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons"></i>flatten()</div>
+              <div class="collapsible-body"><span></span></div>
+            </li>
+          </ul>
+     </div>
+   </div>
+
+</div>
+ </div>
+
+<footer class="page-footer grey darken-4">
+      <div class="container">
+        <div class="row">
+
+        </div>
+      </div>
+      <div class="footer-copyright" style="background-color: #252525;">
+        <div class="container">
+        © 2017 Blake Williford
+        <a class="grey-text text-lighten-4 right" href="#!">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+
+    <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+     <script>
+       $(".button-collapse").sideNav();
+
+     </script>
+  </body>
+</html>
